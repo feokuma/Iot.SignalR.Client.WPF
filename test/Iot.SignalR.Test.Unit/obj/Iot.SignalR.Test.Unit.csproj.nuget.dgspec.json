@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\feoku\\Development\\dotnet-3.0\\Iot.SignalR.Client\\test\\Iot.SignalR.Test.Unit\\Iot.SignalR.Test.Unit.csproj": {}
+    "c:\\Users\\feoku\\Development\\dotnet-3.0\\Iot.SignalR.Client\\test\\Iot.SignalR.Test.Unit\\Iot.SignalR.Test.Unit.csproj": {}
   },
   "projects": {
-    "C:\\Users\\feoku\\Development\\dotnet-3.0\\Iot.SignalR.Client\\test\\Iot.SignalR.Test.Unit\\Iot.SignalR.Test.Unit.csproj": {
+    "c:\\Users\\feoku\\Development\\dotnet-3.0\\Iot.SignalR.Client\\test\\Iot.SignalR.Test.Unit\\Iot.SignalR.Test.Unit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\feoku\\Development\\dotnet-3.0\\Iot.SignalR.Client\\test\\Iot.SignalR.Test.Unit\\Iot.SignalR.Test.Unit.csproj",
+        "projectUniqueName": "c:\\Users\\feoku\\Development\\dotnet-3.0\\Iot.SignalR.Client\\test\\Iot.SignalR.Test.Unit\\Iot.SignalR.Test.Unit.csproj",
         "projectName": "Iot.SignalR.Test.Unit",
-        "projectPath": "C:\\Users\\feoku\\Development\\dotnet-3.0\\Iot.SignalR.Client\\test\\Iot.SignalR.Test.Unit\\Iot.SignalR.Test.Unit.csproj",
+        "projectPath": "c:\\Users\\feoku\\Development\\dotnet-3.0\\Iot.SignalR.Client\\test\\Iot.SignalR.Test.Unit\\Iot.SignalR.Test.Unit.csproj",
         "packagesPath": "C:\\Users\\feoku\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\feoku\\Development\\dotnet-3.0\\Iot.SignalR.Client\\test\\Iot.SignalR.Test.Unit\\obj\\",
+        "outputPath": "c:\\Users\\feoku\\Development\\dotnet-3.0\\Iot.SignalR.Client\\test\\Iot.SignalR.Test.Unit\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
