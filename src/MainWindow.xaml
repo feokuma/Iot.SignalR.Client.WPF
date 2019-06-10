@@ -1,0 +1,60 @@
+﻿<Window x:Class="Iot.SignalR.Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Iot.SignalR.Client"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <StackPanel 
+            Orientation="Horizontal"
+            VerticalAlignment="Top">
+            <Label 
+                Content="Server Address:"
+                Height="25"/>
+            <TextBox
+                Text="https://localhost:5001/IotServerHub" 
+                VerticalContentAlignment="Center"
+                Height="25"
+                Width="300"/>
+        </StackPanel>
+        <StackPanel 
+            Margin="0,10"
+            Orientation="Horizontal" 
+            VerticalAlignment="Top">
+            <Label
+                Content="Connectar:"
+                Height="25"/>
+            <Button 
+                x:Name="btnConnect"
+                Content="Connect"
+                Height="30"
+                Width="80"
+                Margin="5,0"
+                Click="BtnConnect_Click"/>
+        </StackPanel>
+
+        <StackPanel
+            Orientation="Horizontal">
+            <Label
+                Content="Message:"/>
+            <TextBox
+                x:Name="txtMessage"
+                VerticalContentAlignment="Center"
+                Height="25"
+                Width="280"/>
+            <Button
+                Margin="5,0"
+                x:Name="btnSendMessage"
+                Content="Send Message"
+                Click="BtnSendMessage_Click"/>
+        </StackPanel>
+        <GroupBox 
+            Header="Messages"
+            >
+            <ListBox
+                x:Name="lstMessages" Height="300"/>
+        </GroupBox>
+    </StackPanel>
+</Window>
